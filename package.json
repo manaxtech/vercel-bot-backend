@@ -1,0 +1,36 @@
+{
+  "name": "vercel-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "vercel dev"
+  },
+  "devDependencies": {
+    "@vercel/node": "^2.15.10"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.6.0",
+    "numeral": "^2.0.6",
+    "web3": "^4.16.0"
+  },
+  "env": {
+    "RPC_URL1": "@rpc_url1",
+    "RPC_URL2": "@rpc_url2",
+    "RPC_URL3": "@rpc_url3",
+    "RPC_URL4": "@rpc_url4",
+    "RPC_URL5": "@rpc_url5",
+    "PRIVATE_KEY": "@private_key",
+    "ACCOUNT": "@account"
+  }
+}

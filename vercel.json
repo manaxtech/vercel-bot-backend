@@ -1,0 +1,30 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "index.js",
+        "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+        "headers": {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+          "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
+        }
+      }
+    ],
+    "env": {
+      "RPC_URL1": "@rpc_url1",
+      "RPC_URL2": "@rpc_url2",
+      "RPC_URL3": "@rpc_url3",
+      "RPC_URL4": "@rpc_url4",
+      "RPC_URL5": "@rpc_url5",
+      "PRIVATE_KEY": "@private_key",
+      "ACCOUNT": "@account"
+    }
+  }
