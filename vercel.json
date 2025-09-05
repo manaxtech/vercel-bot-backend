@@ -17,14 +17,5 @@
           "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
         }
       }
-    ],
-    "env": {
-      "RPC_URL1": "@rpc_url1",
-      "RPC_URL2": "@rpc_url2",
-      "RPC_URL3": "@rpc_url3",
-      "RPC_URL4": "@rpc_url4",
-      "RPC_URL5": "@rpc_url5",
-      "PRIVATE_KEY": "@private_key",
-      "ACCOUNT": "@account"
-    }
+    ]
   }
